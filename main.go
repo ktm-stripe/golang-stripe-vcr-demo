@@ -21,10 +21,7 @@ func Msg() string {
 }
 
 func GetAccount() (*stripe.Account, error) {
-	a, err := account.GetByID(
-		os.Getenv("STRIPE_ACCOUNT"),
-		nil,
-	)
+	a, err := account.Get()
 
 	return a, err
 }

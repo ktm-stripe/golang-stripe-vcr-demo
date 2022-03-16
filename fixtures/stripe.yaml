@@ -14,7 +14,7 @@ interactions:
       X-Stripe-Client-User-Agent:
       - '{"application":null,"bindings_version":"70.15.0","lang":"go","lang_version":"go1.17.8","publisher":"stripe","uname":"Linux
         348ac9770983 5.10.76-linuxkit #1 SMP Mon Nov 8 10:21:19 UTC 2021 x86_64 GNU/Linux\n"}'
-    url: https://api.stripe.com/v1/accounts/acct_1Jjri3AM0pItg6Bc
+    url: https://api.stripe.com/v1/account
     method: GET
   response:
     body: |
@@ -99,9 +99,9 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Wed, 16 Mar 2022 21:14:31 GMT
+      - Wed, 16 Mar 2022 21:43:57 GMT
       Request-Id:
-      - req_Q507V6AwrQMA0M
+      - req_3rPd6mlWurjgZi
       Server:
       - nginx
       Strict-Transport-Security:

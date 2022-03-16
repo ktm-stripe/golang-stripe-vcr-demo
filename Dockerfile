@@ -1,7 +1,6 @@
 FROM golang:1.17
 
 ENV STRIPE_KEY sk_test_00000000
-ENV STRIPE_ACCOUNT acct_00000000
 
 WORKDIR /usr/src/app
 
