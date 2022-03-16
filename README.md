@@ -2,7 +2,7 @@
 
 ## Instructions
 
-This is meant to be run with Docker. You'll need a secret key and your `account_id`, findable at https://dashboard.stripe.com/settings/account
+This is meant to be run with Docker. You'll need a secret key and your `account_id`, findable at https://dashboard.stripe.com/test/apikeys and https://dashboard.stripe.com/settings/account respectively.
 
 ```shell
 $ docker build -t golang-stripe-vcr-demo
