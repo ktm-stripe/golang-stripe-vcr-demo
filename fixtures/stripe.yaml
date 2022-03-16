@@ -1,0 +1,113 @@
+---
+version: 1
+interactions:
+- request:
+    body: ""
+    form: {}
+    headers:
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Stripe-Version:
+      - "2020-03-02"
+      User-Agent:
+      - Stripe/v1 GoBindings/70.15.0
+      X-Stripe-Client-User-Agent:
+      - '{"application":null,"bindings_version":"70.15.0","lang":"go","lang_version":"go1.17.8","publisher":"stripe","uname":"Linux
+        348ac9770983 5.10.76-linuxkit #1 SMP Mon Nov 8 10:21:19 UTC 2021 x86_64 GNU/Linux\n"}'
+    url: https://api.stripe.com/v1/accounts/acct_1Jjri3AM0pItg6Bc
+    method: GET
+  response:
+    body: |
+      {
+        "id": "acct_1Jjri3AM0pItg6Bc",
+        "object": "account",
+        "capabilities": {
+          "acss_debit_payments": "inactive",
+          "afterpay_clearpay_payments": "inactive",
+          "bancontact_payments": "inactive",
+          "card_payments": "inactive",
+          "eps_payments": "inactive",
+          "giropay_payments": "inactive",
+          "ideal_payments": "inactive",
+          "link_payments": "inactive",
+          "p24_payments": "inactive",
+          "sepa_debit_payments": "inactive",
+          "sofort_payments": "inactive",
+          "transfers": "inactive",
+          "us_bank_account_ach_payments": "inactive"
+        },
+        "charges_enabled": false,
+        "country": "US",
+        "default_currency": "usd",
+        "details_submitted": false,
+        "payouts_enabled": false,
+        "settings": {
+          "bacs_debit_payments": {
+          },
+          "branding": {
+            "icon": null,
+            "logo": null,
+            "primary_color": null,
+            "secondary_color": null
+          },
+          "card_issuing": {
+            "tos_acceptance": {
+              "date": null,
+              "ip": null
+            }
+          },
+          "card_payments": {
+            "statement_descriptor_prefix": "KTEST"
+          },
+          "dashboard": {
+            "display_name": "KTM but not the motorcycle ",
+            "timezone": "America/New_York"
+          },
+          "payments": {
+            "statement_descriptor": "KYLE TEST",
+            "statement_descriptor_kana": null,
+            "statement_descriptor_kanji": null
+          },
+          "payouts": {
+            "debit_negative_balances": true,
+            "schedule": {
+              "delay_days": 2,
+              "interval": "manual"
+            },
+            "statement_descriptor": null
+          },
+          "sepa_debit_payments": {
+          }
+        },
+        "type": "standard"
+      }
+    headers:
+      Access-Control-Allow-Credentials:
+      - "true"
+      Access-Control-Allow-Methods:
+      - GET, POST, HEAD, OPTIONS, DELETE
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - Request-Id, Stripe-Manage-Version, X-Stripe-External-Auth-Required, X-Stripe-Privileged-Session-Required
+      Access-Control-Max-Age:
+      - "300"
+      Cache-Control:
+      - no-cache, no-store
+      Content-Length:
+      - "1556"
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 16 Mar 2022 21:14:31 GMT
+      Request-Id:
+      - req_Q507V6AwrQMA0M
+      Server:
+      - nginx
+      Strict-Transport-Security:
+      - max-age=31556926; includeSubDomains; preload
+      Stripe-Version:
+      - "2020-03-02"
+    status: 200 OK
+    code: 200
+    duration: ""
