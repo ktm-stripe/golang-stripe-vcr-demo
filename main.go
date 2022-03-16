@@ -14,8 +14,6 @@ func main() {
 	a, _ := GetAccount()
 
 	fmt.Println(a)
-
-	// fmt.PrintLn(a)
 }
 
 func Msg() string {
